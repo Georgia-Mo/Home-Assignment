@@ -9,16 +9,18 @@ This project focuses on visualising and analysing fMRI data to explore brain act
 
 ### Table of Contents:
 Two data files were used:
-- Anatomical MRI data file containing a high-resolution scan of the human brain 
+- Anatomical MRI data file:
+    - Containins a high-resolution scan of the human brain. 
     - File name: anatomical.nii.gz
-- Functional MRI data file containing activation during fear conditioning task
+- Functional MRI data file:
+    - Containins activation data from the fear conditioning task.
     - File name: fear_uniformity-test_z_FDR_0.01.nii.gz 
 
 Notebook: Assignment.ipynb
 
-### Pyhton Packges:
+### Pyhton Packages:
 - Glob
-- Nibabel
+- NiBabel
 - Nilearn
 - Matplotlib
 - NumPy
